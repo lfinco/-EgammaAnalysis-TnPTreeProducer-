@@ -59,5 +59,5 @@ def getLeg1ThresholdForDoubleEle(year, hltTrigger='HLT_Ele23_Ele12_CaloIdL_Track
 
 if __name__ == '__main__':
   print 'Testing:'
-  for threshold, json in getLeg1ThresholdForDoubleEle('2018', debug=True):
+  for threshold, json in getLeg1ThresholdForDoubleEle('2016', debug=True):
     print threshold, json
